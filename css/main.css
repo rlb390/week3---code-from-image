@@ -1,0 +1,71 @@
+img
+{
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+	position: absolute;
+	display: inline-block;
+}
+
+p span
+{
+	font-size: 40px;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+p
+{
+	font-size: 40px;
+	color:#ffa743;
+}
+
+div.navigation 
+{
+	background-color: #fe7e00;\\
+	height: 75px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+
+}
+nav div span
+{
+	font-weight: bold;
+}
+nav button
+{
+	background-color: #fe7e00;
+	display: block;
+}
+.navigation ul
+{
+	text-decoration: none;
+	display: block;
+
+}
+
+div.navigation li
+{
+	display: inline-block;
+	font-size: 13px
+	vertical-align: bottom;
+	font-weight: bold;	
+	padding: 15px 25px;
+	background-color: #fe7e00;
+
+	}
+
+	a
+	{
+		color: white;
+	}
+
+	div.navigation ul 
+	{
+		float: right;
+		margin-top: 0;
+		display: inline-block;
+
+
+	}
