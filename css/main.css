@@ -1,3 +1,8 @@
+*
+{margin: 0;
+padding: 0;
+}
+
 img
 {
 	height: 50px;
@@ -5,6 +10,8 @@ img
 	margin-left: 50px;
 	position: absolute;
 	display: inline-block;
+	margin-top: 10px;
+	
 }
 
 p span
@@ -12,21 +19,28 @@ p span
 	font-size: 40px;
 	font-weight: bold;
 	margin-left: 100px;
+	padding: 0;
+	color: white;
+	margin-top: 20px;
 }
 
 p
 {
 	font-size: 40px;
 	color:#ffa743;
+	width: auto;
+	display: inline-block;
+
 }
 
-div.navigation 
+div.nav 
 {
-	background-color: #fe7e00;\\
-	height: 75px;
-	margin: 0 auto;
+	background-color: #fe7e00;
+	height: 70px;
+	margin: 0;
 	display: block;
 	width: 100%;
+	padding: 0%;
 
 }
 nav div span
@@ -38,14 +52,15 @@ nav button
 	background-color: #fe7e00;
 	display: block;
 }
-.navigation ul
+ul
 {
 	text-decoration: none;
 	display: block;
+	
 
 }
 
-div.navigation li
+div.nav li
 {
 	display: inline-block;
 	font-size: 13px
@@ -53,19 +68,48 @@ div.navigation li
 	font-weight: bold;	
 	padding: 15px 25px;
 	background-color: #fe7e00;
+	margin: 0;
+	padding: 0;
+
 
 	}
 
 	a
 	{
 		color: white;
+		margin-right: 10px;
+		padding: 0;
 	}
 
-	div.navigation ul 
+	div.nav ul 
 	{
 		float: right;
 		margin-top: 0;
 		display: inline-block;
-
-
+		margin-top: 30px;
+		padding: 0;
 	}
+
+	body
+	{
+		margin: 0;
+		padding: 0;
+	}
+
+div.foot
+
+{
+
+	background-color: 7accc8;
+	height: 50px
+}
+
+div.footer
+{
+	background-color: #7accc8;
+	bottom: 0;
+	font-size: 10px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+}
