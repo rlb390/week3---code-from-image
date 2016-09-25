@@ -14,15 +14,7 @@ img
 	
 }
 
-p span
-{
-	font-size: 40px;
-	font-weight: bold;
-	margin-left: 100px;
-	padding: 0;
-	color: white;
-	margin-top: 20px;
-}
+
 
 p
 {
@@ -81,8 +73,7 @@ div.nav ul.right
 div.nav li.right
 	{
 		display: inline-block;
-		
-	}
+	
 
 	
 	}
@@ -139,4 +130,31 @@ div.search
 		margin-right: 10px;
 		padding: 0;
 }
-
+div.nav ul.left
+{
+	float: left;
+	list-style: none;
+}
+.left li
+{
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+div
+{
+	display: inline-block;
+}
+div.nav span.left
+{
+	color: white;
+}
+.left span
+{
+	color: white;
+	font-size: 40px;
+}
+sup
+{
+	color: white;
+}
