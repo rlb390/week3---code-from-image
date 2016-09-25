@@ -60,34 +60,31 @@ ul
 
 }
 
-div.nav li
+div.nav ul.right
 {
 	display: inline-block;
 	font-size: 13px
 	vertical-align: bottom;
 	font-weight: bold;	
-	padding: 15px 25px;
+	
 	background-color: #fe7e00;
-	margin: 0;
-	padding: 0;
+	margin-right: 45px;
+	
+	float: right;
+	margin-top: 30px;
+	display: flex;
+	list-style-type: none;
+
 
 
 	}
-
-	a
+div.nav li.right
 	{
-		color: white;
-		margin-right: 10px;
-		padding: 0;
-	}
-
-	div.nav ul 
-	{
-		float: right;
-		margin-top: 0;
 		display: inline-block;
-		margin-top: 30px;
-		padding: 0;
+		
+	}
+
+	
 	}
 
 	body
@@ -113,3 +110,33 @@ div.footer
 	position: fixed;
 	width: 100%;
 }
+div.orange img
+{
+  
+   position: absolute;
+   top: middle;
+   margin-top: 80px;
+ 
+   width: 300px;
+   height: 300px;
+  
+}
+
+sup
+{color: white;
+font-size: 20px}
+
+div.search
+{
+	float: right;
+	display: block;
+	margin-top: 25px;
+}
+.right a
+{
+
+		color: white;
+		margin-right: 10px;
+		padding: 0;
+}
+
