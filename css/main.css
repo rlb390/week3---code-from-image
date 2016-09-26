@@ -3,7 +3,7 @@
 padding: 0;
 }
 
-img
+.left img
 {
 	height: 50px;
 	width: 50px;
@@ -12,6 +12,13 @@ img
 	display: inline-block;
 	margin-top: 10px;
 	
+}
+.footer img
+{
+	margin-left: 50px;
+	position: absolute;
+	display: inline-block;
+	margin-top: 10px;
 }
 
 
@@ -103,25 +110,24 @@ div.footer
 }
 div.orange img
 {
-  
-   position: absolute;
-   top: middle;
-   margin-top: 80px;
- 
-   width: 300px;
-   height: 300px;
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: 35px;
   
 }
 
 sup
-{color: white;
-font-size: 20px}
+{
+	color: #ffa743;
+	font-size: 20px}
 
 div.search
 {
-	float: right;
-	display: block;
-	margin-top: 25px;
+    margin-top: 70px;
+    position: absolute;
+    right: 100px;
 }
 .right a
 {
@@ -129,6 +135,7 @@ div.search
 		color: white;
 		margin-right: 10px;
 		padding: 0;
+		color: #ffa743;
 }
 div.nav ul.left
 {
@@ -154,7 +161,52 @@ div.nav span.left
 	color: white;
 	font-size: 40px;
 }
+
+
+div.word 
+{
+	margin-top: 100px;
+    width: 40%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+    margin-right: 80px;
+}
+
 sup
 {
-	color: white;
+
+}
+.section
+{
+	margin-top: 100px;
+    width: 40%;
+    float: right;
+    
+    text-align: center;
+    
+    margin-right: 80px;
+}
+.section p
+{
+	font-size: 60px;
+}
+.section span
+{
+	font-weight: bold;
+}
+.web span
+{
+color:#7accc8;
+}
+
+.quote li
+{
+
+}
+
+.quote button
+{
+
 }
