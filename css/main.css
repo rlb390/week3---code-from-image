@@ -6,11 +6,11 @@ padding: 0;
 .left img
 {
 	height: 50px;
-	width: 50px;
-	margin-left: 50px;
-	position: absolute;
-	display: inline-block;
-	margin-top: 10px;
+    width: 50px;
+    margin-left: 150px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 35px;
 	
 }
 .footer img
@@ -26,16 +26,17 @@ padding: 0;
 p
 {
 	font-size: 40px;
-	color:#ffa743;
-	width: auto;
-	display: inline-block;
+    color: #ffa743;
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
 
 }
 
 div.nav 
 {
 	background-color: #fe7e00;
-	height: 70px;
+	height: 120px;
 	margin: 0;
 	display: block;
 	width: 100%;
@@ -45,6 +46,10 @@ div.nav
 .left span
 {
 	font-weight: bold;
+	color: white;
+    font-size: 40px;
+    margin-top: 20px;
+
 }
 
 .left p
@@ -71,10 +76,10 @@ nav button
 	font-weight: bold;	
 	
 	background-color: #fe7e00;
-	margin-right: 45px;
+	margin-right: 355px;
 	
 	float: right;
-	margin-top: 30px;
+	margin-top: 50px;
 	display: flex;
 	list-style-type: none;
 	}
@@ -91,17 +96,17 @@ body
 	background-color: #7accc8;
 	bottom: 0;
 	font-size: 10px;
-	height: 50px;
+	height: 120px;
 	position: fixed;
 	width: 100%;
 }
 div.orange img
 {
-    margin-top: 50px;
+    margin-top: 140px;
     width: 500px;
     height: 400px;
     position: absolute;
-    margin-left: 35px;
+    margin-left: 70px;
   
 }
 
@@ -127,7 +132,7 @@ div.nav ul.left
 .left li
 {
 	float: left;
-	margin-left: 100px;
+	margin-left: 175px;
 	margin-top: 20px;
 }
 div
@@ -137,11 +142,6 @@ div
 div.nav span.left
 {
 	color: white;
-}
-.left span
-{
-	color: white;
-	font-size: 40px;
 }
 
 
@@ -162,15 +162,15 @@ sup
 }
 .section
 {
-	margin-top: 100px;
-    width: 45%;
+	margin-top: 170px;
+    width: 40%;
     float: right;
-    text-align: center;
-    margin-right: 150px;
+    text-align: left;
+    margin-right: 350px;
 }
 .section p.word
 {
-	font-size: 60px;
+	font-size: 50px;
 }
 .section span
 {
@@ -179,27 +179,34 @@ sup
 .web span
 {
 color:#7accc8;
-font-size: 60px;
+font-size: 50px;
 }
 
 
 .quote button
 {
-height: 50px;
-width: 150px;
+    height: 80px;
+    width: 300px;
+    background-color: #fe7e00;
+    color: white;
+    font-size: 20px;
 }
 
 .case button
 {
-	height: 50px;
-	width: 150px;
+	
+	height: 80px;
+    width: 305px;
+    background-color: #7accc8;
+    color: white;
+    font-size: 20px;
 }
 .button
 {
 	display: inline-block;
 }
 
-.search
+.search input
 {
     margin-top: 70px;
     position: absolute;
@@ -213,8 +220,9 @@ width: 150px;
 
 .nav li
 {
-	padding: 0 10px;
+	padding: 0 30px;
     display: inline-flex;
+    font-size: 20px;
 }
 
 .word sup
@@ -232,10 +240,16 @@ width: 150px;
 	display: inline-block;
 
 }
-.buttons ul
+.button li.quote
+{
+	margin-right: 50px;
+}
+
+.button li.case
 {
 
 }
+
 
 .button
 {
