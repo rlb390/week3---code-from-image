@@ -25,7 +25,7 @@ padding: 0;
 
 p
 {
-	font-size: 40px;
+	font-size: 50px;
     color: #ffa743;
     width: auto;
     display: inline-block;
@@ -102,7 +102,7 @@ body
 }
 div.orange img
 {
-    margin-top: 140px;
+    margin-top: 50px;
     width: 500px;
     height: 400px;
     position: absolute;
@@ -162,7 +162,7 @@ sup
 }
 .section
 {
-	margin-top: 170px;
+	margin-top: 100px;
     width: 40%;
     float: right;
     text-align: left;
@@ -190,16 +190,20 @@ font-size: 50px;
     background-color: #fe7e00;
     color: white;
     font-size: 20px;
+    position: relative;
+    top: -43px;
 }
 
 .case button
 {
 	
-	height: 80px;
-    width: 305px;
+	 height: 80px;
+    width: 300px;
     background-color: #7accc8;
     color: white;
     font-size: 20px;
+    position: relative;
+    top: -43px;
 }
 .button
 {
@@ -257,5 +261,35 @@ font-size: 50px;
     position: absolute;
     right: 400px;
 }
+.search input
+{
+    margin-top: 125px;
+    position: absolute;
+    right: 200px;
+    width: 200px;
+    height: 30px;
+    background-color: #efefed;
+}
 
+.search img
+{
+	color: black;
+    height: 20px;
+    position: absolute;
+    margin-top: 130px;
+    display: inline-block;
+    margin-left: 1600px;
+}
+div.search
+{
+	display: inherit;
+}
+li.juice p
+{
+    font-size: 40px;
+    color: #ffa743;
+    width: auto;
+    display: inline-block;
+    margin-top: 20px;
+}
 /* I WANT ALL THE dot buttons */
