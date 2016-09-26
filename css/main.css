@@ -42,24 +42,28 @@ div.nav
 	padding: 0%;
 
 }
-nav div span
+.left span
 {
 	font-weight: bold;
 }
+
+.left p
+{
+
+}
+
 nav button
 {
 	background-color: #fe7e00;
 	display: block;
 }
-ul
-{
-	text-decoration: none;
-	display: block;
-	
 
+.button ul
+{
+	display: inline-block;
 }
 
-div.nav ul.right
+.nav ul.right
 {
 	display: inline-block;
 	font-size: 13px
@@ -73,33 +77,16 @@ div.nav ul.right
 	margin-top: 30px;
 	display: flex;
 	list-style-type: none;
-
-
-
-	}
-div.nav li.right
-	{
-		display: inline-block;
-	
-
-	
 	}
 
-	body
+body
 	{
 		margin: 0;
 		padding: 0;
 	}
 
-div.foot
+.footer
 
-{
-
-	background-color: 7accc8;
-	height: 50px
-}
-
-div.footer
 {
 	background-color: #7accc8;
 	bottom: 0;
@@ -118,16 +105,11 @@ div.orange img
   
 }
 
-sup
+.left sup
 {
 	color: #ffa743;
 	font-size: 20px}
 
-div.search
-{
-    margin-top: 70px;
-    position: absolute;
-    right: 100px;
 }
 .right a
 {
@@ -181,14 +163,12 @@ sup
 .section
 {
 	margin-top: 100px;
-    width: 40%;
+    width: 45%;
     float: right;
-    
     text-align: center;
-    
-    margin-right: 80px;
+    margin-right: 150px;
 }
-.section p
+.section p.word
 {
 	font-size: 60px;
 }
@@ -199,14 +179,69 @@ sup
 .web span
 {
 color:#7accc8;
+font-size: 60px;
 }
 
-.quote li
-{
-
-}
 
 .quote button
 {
+height: 50px;
+width: 150px;
+}
+
+.case button
+{
+	height: 50px;
+	width: 150px;
+}
+.button
+{
+	display: inline-block;
+}
+
+.search
+{
+    margin-top: 70px;
+    position: absolute;
+    right: 100px;
+}
+
+.nav a
+{
+	color: #ffa743;
+}
+
+.nav li
+{
+	padding: 0 10px;
+    display: inline-flex;
+}
+
+.word sup
+{
+	font-size: 20px;
+}
+
+.button ul
+{
 
 }
+
+.button li
+{
+	display: inline-block;
+
+}
+.buttons ul
+{
+
+}
+
+.button
+{
+    margin-top: 450px;
+    position: absolute;
+    right: 400px;
+}
+
+/* I WANT ALL THE dot buttons */
