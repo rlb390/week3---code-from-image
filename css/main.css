@@ -172,7 +172,7 @@ sup
 {
 	font-size: 50px;
 }
-.section span
+.section span 
 {
 	font-weight: bold;
 }
@@ -213,8 +213,8 @@ font-size: 50px;
 .search input
 {
     margin-top: 70px;
-    position: absolute;
     right: 100px;
+    text-align: center;
 }
 
 .nav a
