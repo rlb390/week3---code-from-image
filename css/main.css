@@ -1,17 +1,22 @@
+.case a
+{
+
+}
+
+
+
 *
-{margin: 0;
-padding: 0;
+{
+	margin: 0;
+	padding: 0;
 }
 
 .left img
 {
-	height: 50px;
-    width: 50px;
-    margin-left: 150px;
     position: absolute;
     display: inline-block;
-    margin-top: 35px;
-	
+    top: 30px;
+	left: 35px;
 }
 .footer img
 {
@@ -52,11 +57,6 @@ div.nav
 
 }
 
-.left p
-{
-
-}
-
 nav button
 {
 	background-color: #fe7e00;
@@ -76,7 +76,7 @@ nav button
 	font-weight: bold;	
 	
 	background-color: #fe7e00;
-	margin-right: 355px;
+	
 	
 	float: right;
 	margin-top: 50px;
@@ -93,18 +93,19 @@ body
 .footer
 
 {
-	background-color: #7accc8;
-	bottom: 0;
-	font-size: 10px;
-	height: 120px;
-	position: fixed;
-	width: 100%;
+	    background-color: #7accc8;
+    bottom: 0;
+    font-size: 10px;
+    height: 120px;
+    position: absolute;
+    width: 100%;
+    top: 120%;
 }
 div.orange img
 {
     margin-top: 50px;
-    width: 500px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
     position: absolute;
     margin-left: 70px;
   
@@ -131,9 +132,9 @@ div.nav ul.left
 }
 .left li
 {
-	float: left;
-	margin-left: 175px;
-	margin-top: 20px;
+	top: 20px;
+	left: 60px;
+	position: absolute;
 }
 div
 {
@@ -162,11 +163,12 @@ sup
 }
 .section
 {
-	margin-top: 100px;
+	top: 175px;
     width: 40%;
-    float: right;
     text-align: left;
-    margin-right: 350px;
+    position: absolute;
+    left: 500px;
+   
 }
 .section p.word
 {
@@ -186,27 +188,31 @@ font-size: 50px;
 .quote button
 {
     height: 80px;
-    width: 300px;
+    width: 200px;
     background-color: #fe7e00;
     color: white;
     font-size: 20px;
     position: relative;
     top: -43px;
+    right: 40px;
 }
 
 .case button
 {
+
 	
-	 height: 80px;
-    width: 300px;
+    height: 80px;
+    width: 200px;
     background-color: #7accc8;
     color: white;
     font-size: 20px;
     position: relative;
-    top: -43px;
+    top: -54px;
+    left: 15px;
 }
-.button
-{
+.but
+
+
 	display: inline-block;
 }
 
@@ -220,6 +226,7 @@ font-size: 50px;
 .nav a
 {
 	color: #ffa743;
+	text-decoration: none;
 }
 
 .nav li
@@ -246,7 +253,8 @@ font-size: 50px;
 }
 .button li.quote
 {
-	margin-right: 50px;
+	margin-right: 60px;
+    width: 100px;
 }
 
 .button li.case
@@ -271,6 +279,17 @@ font-size: 50px;
     background-color: #efefed;
 }
 
+div.search ul
+{
+position: absolute;
+}
+div.search li
+{
+position: absolute;
+}
+
+
+
 .search img
 {
 	color: black;
@@ -278,7 +297,7 @@ font-size: 50px;
     position: absolute;
     margin-top: 130px;
     display: inline-block;
-    margin-left: 1600px;
+    left: 1140px;
 }
 div.search
 {
@@ -292,4 +311,106 @@ li.juice p
     display: inline-block;
     margin-top: 20px;
 }
+@media (max-width: 768px)
+
+{
+	div.nav ul.left 
+	{
+		
+		position: absolute;
+	}
+	div.nav ul.right
+	{
+
+	}
+	.left img
+	{
+	height: 35px;
+    left: 10px;
+    top: 45px;
+}
+	.left li
+	{
+		float: none;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.nav li
+	{
+	padding: 0 10px;
+    display: inline-flex;
+    font-size: none;
+    font-size: 12px;
+	}
+	.search input
+	{
+		right: 25px;
+	}
+	.search li img
+	{
+		left: 720px;
+	}
+	.section p.word
+	{
+		font-size: 30px;
+		left: 45%;
+		position: absolute;
+		top: 25px;
+	}
+	.section
+	{
+		width: 100%;
+		left: 0px;
+	}
+	.word sup
+	{
+		font-size: 10px;
+	}
+	p
+	{
+		left: 50%;
+		font-size: 30px;
+		position: absolute;
+		margin-top: 40px;
+	}
+	li.juice
+	{
+		position: none;
+	}
+	li.juice p
+	{
+		left: 130px;
+		position: absolute;
+		width: 100%;
+	}
+	p.web
+	{
+		    top: 95px;
+   		    position: absolute;
+   		    text-align: center;
+   		    right: 70px;
+	}
+	.web span
+	{
+		font-size: 30px;
+	}
+
+	.quote button
+	{
+		height: 50px;
+		width: 175px;
+		font-size: 20px;
+		top: -125px;
+		left: 336px;
+	}
+	.case button
+	{
+		height: 50px;
+		width: 175px;
+		font-size: 20px;
+		top: -136px;
+		left: 355px;
+	}
+}
+
 /* I WANT ALL THE dot buttons */
